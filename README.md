@@ -16,3 +16,9 @@ Use Case:
 The Movie Guide can be used by movie enthusiasts, film critics, or anyone who wants to quickly retrieve information about a movie. Users can search for their favorite movies, explore different genres, and get detailed insights into the plot, cast, and director. The application provides a convenient way to access movie information in a visually appealing and user-friendly manner.
 
 By showcasing the Movie Guide in your project, you can demonstrate your ability to integrate external APIs, handle real-time data, and create an engaging user interface for movie-related information.
+
+<img width="1386" alt="Screenshot 2023-06-26 at 23 06 30" src="https://github.com/artistatbl/MoviesTracker/assets/88166536/e5308689-abc3-4f1c-b242-c8bf623b9711">
+
+Mobile View
+
+<img width="382" alt="Screenshot 2023-06-26 at 23 07 13" src="https://github.com/artistatbl/MoviesTracker/assets/88166536/40bfe05c-a0a9-4eab-b218-d7e17271e08f">
