@@ -172,7 +172,7 @@ footer {
 	width: 100%;
 	background: transparent;
 	text-align: center;
-	padding: 15px 0;
+	padding: 10px 0;
 
    }
 
@@ -189,14 +189,14 @@ footer {
 	.poster{
 		margin: auto;
 		width: auto;
-		max-height: 10em;
+		max-height: 10.5em;
 	}
 	.details{
 		font-size: 12px;
 	}
 	.genre{
 		font-size: 11px;
-		margin: 10px 50px;
+		margin: 10px 10px;
 	}
 	.search-container{
 		grid-template-columns: 1fr;
