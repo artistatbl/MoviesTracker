@@ -154,10 +154,10 @@ h3 {
 
 p {
 	font-size: 0.8em;
-	font-weight: 200;
+	font-weight: 300;
 	line-height: 1.8em;
 	text-align: justify;
-	color: #a0a0a0;
+	color: #bdb8b8;
 }
 
 .msg {
@@ -172,7 +172,7 @@ footer {
 	width: 100%;
 	background: transparent;
 	text-align: center;
-	padding: 10px 0;
+	padding: 5px 0;
 
    }
 
@@ -208,9 +208,14 @@ footer {
 	}
 }
 
-@media  screen and (max-width: 500px) {
+@media  screen and (max-width: 450px) {
 	.rating{
-		margin-left: 7em;
+		margin-left: 5em;
+	}
+	.container{
+		font-size: 12px;
+		width: 85vw;
+		
 	}
 	
 }
