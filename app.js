@@ -34,13 +34,19 @@ const getMovie = () => {
                 <span>${data.Rated}</span>
                 <span>${data.Year}</span>
                 <span>${data.Runtime}</span>
-              </div class= "contact">
-              <h3 class="">Votes & Director </h3>
-              <span>${data.Metascore}</span>
-              <span>${data.imdbVotes}</span>
-              <span>${data.Director}</span>
-              <div>
-              </div>
+                </div>
+
+                <h3 class="info-dir">Votes & Director </h3>
+
+                <div class= "contact">
+               
+                <span>${data.Metascore}</span>
+                <span>${data.imdbVotes}</span>
+                <span>${data.Director}</span>
+                <div>
+                </div>
+                </div>
+            
               <div class="genre">
                 ${data.Genre.split(",").join("<div></div>")} 
               </div>
