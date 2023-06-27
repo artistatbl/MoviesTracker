@@ -5,8 +5,9 @@ let result = document.getElementById("result");
 // Function to fetch data from the API
 const getMovie = () => {
   let movieName = movieNameRef.value; // Use .value instead of .ariaValueMax to get the input value
-// Replace "YOUR_API_KEY" with your actual API key
-  let url = `https://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
+  let year = document.getElementById("year").value;
+
+  let url = `https://www.omdbapi.com/?t=${movieName}&y=${year}&apikey=${key}`;
 
   // If input field is empty
   if (movieName === "") {
@@ -33,16 +34,24 @@ const getMovie = () => {
                 <span>${data.Rated}</span>
                 <span>${data.Year}</span>
                 <span>${data.Runtime}</span>
+              </div class= "contact">
+              <h3 class="">Votes & Director </h3>
+              <span>${data.Metascore}</span>
+              <span>${data.imdbVotes}</span>
+              <span>${data.Director}</span>
+              <div>
               </div>
               <div class="genre">
                 ${data.Genre.split(",").join("<div></div>")} 
+              </div>
             </div>
-		  </div>
           </div>
           <h3>Plot:</h3>
           <p>${data.Plot}</p>
           <h3>Cast:</h3>
           <p>${data.Actors}</p>
+          <h3>Language:</h3>
+          <p>${data.Language}</p>
         `;
       } else {
         result.innerHTML = `<h3 class="msg">${data.Error}</h3>`;
@@ -56,4 +65,4 @@ const getMovie = () => {
 
 // Event listener for the search button
 searchBtn.addEventListener("click", getMovie);
-//window.addEventListener("load", getMovie);
+window.addEventListener("load", getMovie);
